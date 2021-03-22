@@ -27,7 +27,7 @@ server.app.use('/user', userRoutes );
 
 
 // Conectar DB 
-mongoose.connect('mongodb+srv://dutti:dutti2021.@cluster0.2yakq.mongodb.net/dutti?retryWrites=true&w=majority', 
+mongoose.connect('mongodb+srv://dutti:<password>@cluster0.2yakq.mongodb.net/dutti?retryWrites=true&w=majority', 
                 { useNewUrlParser: true, useCreateIndex: true }, ( err ) => {
 
    if ( err ) throw err;
